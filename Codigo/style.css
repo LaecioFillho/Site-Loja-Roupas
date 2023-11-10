@@ -2,16 +2,15 @@
 
 *{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    fo
 }
 
 body{
-    background-color: pink;
+    background-color: rgb(226, 74, 100);
 }
 
 main{
     box-shadow: 0px 0px 10px black;
-    height: 90vh;
+    height: 95vh;
     border-radius: 15px;
     padding-inline: 4px;
 }
@@ -19,4 +18,20 @@ main{
 main h1{
     text-align: center;
     color: white;
+}
+
+.divimagem{
+    background-color: white;
+    width: 250px;
+    height: 300px;
+    border-radius: 15px;
+}
+
+.divimagem p {
+    text-align: center;
+}
+
+.divimagem button{
+    color: palevioletred;
+    border-radius: 8px;
 }

@@ -1,12 +1,12 @@
 @charset "UTF-8";
 
 *{
+    border: 0px;
+    padding: 0px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 body{
-    border: 0px;
-    padding: 0px;
     background-color: rgb(226, 74, 100);
 }
 
@@ -21,28 +21,36 @@ body{
     margin: auto;
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: center;
     padding: 10px;
     border: 10px;
 }
 
-main h1{
+.logo{
     text-align: center;
     color: white;
 }
 
+.separador{
+    margin: 20px;
+    color: white;
+}
+
+.buscador{
+    width: 50%;
+
+}
+
 img{
+
+    display: flex;
     width: 200px;
     height: 250px;
     border-radius: 15px;
-    margin: 25px;
-}
-
-.divimagem:hover{
-    width: 300px;
-    height: 450px;
-    border-radius: 15px;
     cursor: pointer;
-    transition: 0.5s;
+    margin: auto;
+    margin-top: 30px;
 }
 
 .divimagem{
@@ -51,31 +59,42 @@ img{
     width: 250px;
     height: 400px;
     border-radius: 10px;
+    transition: 0.8s;
+}
+
+.divimagem:hover{
+    width: 280px;
+    height: 420px;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: 0.8s;
 }
 
 .divimagem p {
-    text-shadow: 0px 0px 2px black;
-    font-weight: 700;
+    text-shadow: 0px 0px 2px palevioletred;
+    font-weight: 100;
     text-align: center;
-    margin: auto;
+    margin: 15px;
 }
 
 .divimagem button{
-    display: inline-block;
-    text-align: center;
-    font-weight: normal;
-    font-size: medium;
+    padding: 20px;
     width: 100px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: medium;
     background-color: rgb(255, 149, 166);
     border: none;
     color: white;
     border-radius: 8px;
     cursor: pointer;
-    margin: 10px 75px;
+    margin: auto;
 }
 
 button:hover{
     background-color: palevioletred;
-    border: solid gray;
-    transition: 0,3s;
+    transition: 0.4s;
 }

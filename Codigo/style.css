@@ -8,32 +8,58 @@
 
 body{
     background-color: rgb(226, 74, 100);
-    box-shadow: 0px 0px 20px rgb(70, 70, 70);
+    box-shadow: 0px 0px 20px rgba(48, 48, 48, 0.678);
     height: auto;
     border-radius: 15px;
     margin: 20px;
+    padding: 5px;
 }
 
 /* Header */
-nav {
+header{
+    height: 100px;
+    background-color: white;
+    opacity: 0.8;
     display: flex;
-    justify-content: center;
+    justify-content: right;
+    border-radius: 15px;
+    margin-bottom: 20px;
 }
 
-nav div{
+header h1{  
+    margin: 0px;
+    text-align: center;
+    margin-right: 250px;
+    color: rgb(226, 74, 100);
+}
+
+header ul{
     display: flex;
-    flex-direction: row;
-    justify-content: right;
 }
 
 li{
-    margin: 30px;
+    margin: 0px 30px;
+}
+
+.contato{
+    background-color: rgb(255, 149, 166);
+    border-radius: 10px;
+    padding: 5px;
 }
 
 /* Main */
 article{
     display: flex;
     justify-content: center;
+}
+
+.buscador{
+    border-radius: 20px;
+    width: 300px;
+    height: 20px;
+    opacity: 0.9;
+    padding: 10px;
+    outline: none;
 }
 
 .parte-produtos {
@@ -46,23 +72,9 @@ article{
     border: 10px;
 }
 
-.logo{
-    text-align: center;
-    color: white;
-}
-
-.separador{
+.classificação{
     margin: 20px;
     color: white;
-}
-
-.buscador{
-    border-radius: 20px;
-    width: 300px;
-    height: 20px;
-    opacity: 0.9;
-    padding: 10px;
-    outline: none;
 }
 
 article button{
@@ -97,7 +109,7 @@ img{
 }
 
 .divimagem:hover{
-    width: 280px;
+    width: 270px;
     height: 420px;
     border-radius: 15px;
     cursor: pointer;
